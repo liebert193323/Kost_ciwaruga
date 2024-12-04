@@ -24,6 +24,20 @@ Before you begin, ensure you have met the following requirements:
 ### 1. Clone the Repository
 
 Clone the project from GitHub to your local machine:
+##2. Install PHP Dependencies
+Navigate to the project directory and install the necessary PHP dependencies via Composer:
+##3. Set up the Environment
+Copy the .env.example file to .env:
 
 ```bash
 git clone https://github.com/liebert193323/Kost_ciwaruga.git
+
+cd Kost_ciwaruga
+composer install
+
+cp .env.example .env
+
+
+
+
+
